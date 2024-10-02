@@ -1,0 +1,16 @@
+.main-section {
+  background-color: #e0e0e0;
+  padding: 4rem 5rem;
+}
+
+.neumorphism {
+  border-radius: 30px;
+  background: var(--color-tertiary);
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+
+.neumorphism-black {
+  border-radius: 30px;
+  background: #111111;
+  box-shadow: 20px 20px 60px #0e0e0e, -20px -20px 60px #141414;
+}

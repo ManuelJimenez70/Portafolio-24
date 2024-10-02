@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+@import "primeng/resources/themes/aura-dark-amber/theme.css";
+@import "primeng/resources/primeng.css";
+@import "primeicons/primeicons.css";
+@import url("https://fonts.googleapis.com/css2?family=Monda:wght@400..700&display=swap");
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-family-primary: "Monda", sans-serif;
+  --color-primary: #aeaeae;
+  --color-secondary: #383838;
+  --color-tertiary: #e0e0e0;
+  --color-quaternary: #fbbf24;
+  --font-color-primary: #6a6a6a;
+  --font-color-secondary: #484848;
+  --font-color-tertiary: #8c8c8c;
+  --color-primary-dark: #3d3d3d;
+  --color-secondary-dark: #383838;
+  --color-tertiary-dark: #111111;
+  --font-color-primary-dark: rgb(71, 71, 71);
+}
+
+* {
+  font-family: var(--font-family-primary);
+  color: var(--font-color-primary);
+  line-height: 0.9;
+}
